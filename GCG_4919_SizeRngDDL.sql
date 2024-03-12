@@ -1,0 +1,5 @@
+CREATE TABLE "GCG_4919_SizeRngDDL"(
+ "SizeRange" CHAR(50),
+ "Inactive" BIT NOT NULL ,
+ "SizeID" IDENTITY DEFAULT '0',
+ UNIQUE ("SizeID"));
